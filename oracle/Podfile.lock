@@ -1,0 +1,37 @@
+PODS:
+  - AXSwift (0.2.3)
+  - PromiseKit/CorePromise (6.10.0)
+  - Starscream (3.0.6)
+  - Swindler (0.0.4):
+    - AXSwift (= 0.2.3)
+    - PromiseKit/CorePromise (~> 6.0)
+
+DEPENDENCIES:
+  - Starscream (>= 3.0.6)
+  - Swindler (from `https://github.com/tmandry/Swindler.git`, tag `0.0.4`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AXSwift
+    - PromiseKit
+    - Starscream
+
+EXTERNAL SOURCES:
+  Swindler:
+    :git: https://github.com/tmandry/Swindler.git
+    :tag: 0.0.4
+
+CHECKOUT OPTIONS:
+  Swindler:
+    :git: https://github.com/tmandry/Swindler.git
+    :tag: 0.0.4
+
+SPEC CHECKSUMS:
+  AXSwift: d49fe05ca04f983196c5caedfc88f617922ae671
+  PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Swindler: 5fdfdfed526e8b6f710f1481dde22f1722c14b65
+
+PODFILE CHECKSUM: e0fe418aaabbaed01220e46633134d4e1dc95fda
+
+COCOAPODS: 1.7.5

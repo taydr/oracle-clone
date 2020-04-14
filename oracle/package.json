@@ -1,0 +1,20 @@
+{
+  "name": "@o/oracle",
+  "version": "2.7.5",
+  "private": true,
+  "main": "./_/Oracle.js",
+  "scripts": {
+    "edit": "open ./Oracle.xcworkspace",
+    "install-pods": "pod install",
+    "build": "./build.sh --if-empty && npx tsc || true",
+    "watch": "tsc -b --watch --preserveWatchOutput",
+    "test": "LOG_LEVEL=4 node ./_/test.js"
+  },
+  "dependencies": {
+    "@o/logger": "^2.7.1",
+    "@o/models": "^2.7.5",
+    "electron-util": "^0.12.1",
+    "fs-extra": "^8.1.0",
+    "ws": "^7.0.0"
+  }
+}
